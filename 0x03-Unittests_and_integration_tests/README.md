@@ -4,11 +4,11 @@ This project explores **unit and integration testing** techniques in Python. It 
 
 ## 📁 Project Structure
 
-- `utils.py`: Helper functions including `get_json`, `access_nested_map`, and `memoize`.
-- `client.py`: The main class `GithubOrgClient` which interacts with GitHub's REST API to fetch org and repo data.
-- `test_utils.py`: Unit tests for utility functions.
-- `test_client.py`: Unit and integration tests for `GithubOrgClient`.
-- `fixtures.py`: Contains mocked payloads used for integration testing.
+- [`utils.py`](./utils.py): Helper functions including `get_json`, `access_nested_map`, and `memoize`.
+- [`client.py`](./client.py): The main class `GithubOrgClient` which interacts with GitHub's REST API to fetch org and repo data.
+- [`test_utils.py`](./test_utils.py): Unit tests for utility functions.
+- [`test_client.py`](./test_client.py): Unit and integration tests for `GithubOrgClient`.
+- [`fixtures.py`](./fixtures.py) Contains mocked payloads used for integration testing.
 
 ## 🧪 Features Tested
 
