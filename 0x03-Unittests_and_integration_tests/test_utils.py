@@ -8,7 +8,6 @@ from parameterized import parameterized
 from utils import access_nested_map, memoize, get_json
 
 
-
 class TestAccessNestedMap(unittest.TestCase):
     """Test cases for the access_nested_map function."""
 
@@ -29,7 +28,8 @@ class TestAccessNestedMap(unittest.TestCase):
         """Test that access_nested_map raises KeyError for invalid paths."""
         with self.assertRaises(KeyError) as ctx:
             access_nested_map(nested_map, path)
-        self.assertEqual(str(ctx.exception),repr(path[-1]))
+        self.assertEqual(str(ctx.exception), repr(path[-1]))
+
 
 class TestGetJson(unittest.TestCase):
     """Test the get_json function with mocked requests."""
@@ -39,7 +39,10 @@ class TestGetJson(unittest.TestCase):
         ("http://holberton.io", {"payload": False}),
     ])
     def test_get_json(self, test_url, test_payload):
-        """Test that get_json returns the correct payload and calls requests.get once."""
+        """
+        Test that get_json returns the correct payload
+        and calls requests.get once.
+        """
         with patch('utils.requests.get') as mocked_get:
             # Create a Mock response with a custom .json() return value
             mock_response = Mock()
@@ -50,6 +53,7 @@ class TestGetJson(unittest.TestCase):
 
             mocked_get.assert_called_once_with(test_url)
             self.assertEqual(result, test_payload)
+
 
 class TestMemoize(unittest.TestCase):
     """Tests for the memoize decorator."""
@@ -64,7 +68,8 @@ class TestMemoize(unittest.TestCase):
             def a_property(self):
                 return self.a_method()
 
-        with patch.object(TestClass, 'a_method', return_value=42) as mock_method:
+        with patch.object(TestClass, 'a_method',
+                          return_value=42) as mock_method:
             instance = TestClass()
 
             result_1 = instance.a_property
@@ -74,3 +79,4 @@ class TestMemoize(unittest.TestCase):
             self.assertEqual(result_2, 42)
             mock_method.assert_called_once()
 
+# new line at the end

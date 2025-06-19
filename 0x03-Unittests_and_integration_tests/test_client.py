@@ -131,3 +131,5 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
     def tearDownClass(cls):
         """Method called after all tests in this class have run"""
         cls.get_patcher.stop()
+
+# new line at the end
