@@ -9,13 +9,13 @@ class UserViewSet(viewsets.ModelViewSet):
     serializer_class = UserSerializer
 
 
-class MessageViewSet(viewsets.modelViewSet):
+class MessageViewSet(viewsets.ModelViewSet):
     queryset = Message.objects.all().order_by('conversation', '-sent_at')
     serializer_class = MessageSerializer
 
     def perform_create(self, serializer):
         serializer.save(sender=self.request.user)
-        
+
 class ConversationViewSet(viewsets.ModelViewSet):
     queryset = Conversation.objects.all().order_by('-created_at')
     serializer_class = ConversationSerializer
