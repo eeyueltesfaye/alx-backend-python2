@@ -2,13 +2,13 @@ from rest_framework import serializers
 from .models import User, Conversation, Message
 
 class UserSerializer(serializers.ModelSerializer):
-    username = serializers.CharField(max_length=150)
-    email = serializers.EmailField()
+    username = serializers.CharField(max_length=150, required=True)
+    email = serializers.EmailField(required=True)
 
     class Meta:
         model = User
-        fields = ['user_id', 'username', 'email', 'first_name', 'last_name', 'phone_number', 'is_online', 'created_at']
-        read_only_fields = ['user_id', 'created_at']
+        fields = ['id', 'username', 'email', 'first_name', 'last_name', 'phone_number', 'is_online', 'created_at']
+        read_only_fields = ['id', 'created_at']
 
     def validate_username(self, value):
         """
@@ -33,7 +33,7 @@ class MessageSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Message
-        fields = ['message_id', 'sender', 'message_body', 'sent_at', 'timestamp', 'is_read', ' short_message']
+        fields = ['message_id', 'sender', 'message_body','conversation', 'sent_at', 'timestamp', 'is_read', 'short_message']
 
     def get_short_message(self, obj):
         # Return the first 20 characters of the message body

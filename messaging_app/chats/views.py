@@ -2,6 +2,7 @@ from django.shortcuts import render
 from .serializers import UserSerializer, MessageSerializer, ConversationSerializer
 from .models import User, Message, Conversation
 from rest_framework import viewsets
+from .permissions import ISOwner 
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -12,6 +13,12 @@ class UserViewSet(viewsets.ModelViewSet):
 class MessageViewSet(viewsets.ModelViewSet):
     queryset = Message.objects.all().order_by('conversation', '-sent_at')
     serializer_class = MessageSerializer
+    permission_classes = [ISOwner]
+
+    def get_queryset(self):
+        # Limit messages to those where the user is sender or receiver
+        user = self.request.user
+        return Message.objects.filter(sender=user) 
 
     def perform_create(self, serializer):
         serializer.save(sender=self.request.user)

@@ -5,7 +5,7 @@ from django.conf import settings
 
 
 class User(AbstractUser):
-    user_id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     email = models.EmailField(max_length=255, null=False, unique=True)
     password = models.CharField(max_length=128)  # Explicitly define password field
     first_name = models.CharField(max_length=30, blank=True)
