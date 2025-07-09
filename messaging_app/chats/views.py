@@ -3,6 +3,9 @@ from .serializers import UserSerializer, MessageSerializer, ConversationSerializ
 from .models import User, Message, Conversation
 from rest_framework import viewsets
 from .permissions import IsParticipantOfConversation
+from .pagination import MessagePagination
+from .filters import MessageFilter
+from django_filters.rest_framework import DjangoFilterBackend
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -14,6 +17,9 @@ class MessageViewSet(viewsets.ModelViewSet):
     queryset = Message.objects.all().order_by('conversation', '-sent_at')
     serializer_class = MessageSerializer
     permission_classes =  [IsParticipantOfConversation]
+    filter_backends = [DjangoFilterBackend]
+    filterset_class = MessageFilter
+    pagination_class = MessagePagination
 
     def get_queryset(self):
         # Limit messages to those where the user is sender or receiver
