@@ -23,3 +23,51 @@ Forbidden: /api/conversations/
 2025-07-18 19:36:24.259420 - User: Anonymous - Path: /api/conversations/
 Forbidden: /api/conversations/
 C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+2025-07-18 19:46:01.967464 - User: Anonymous - Path: /api/conversations/
+Internal Server Error: /api/conversations/
+Traceback (most recent call last):
+  File "C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\myvenv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py", line 32, in __call__
+    start_time = time(18, 0)  # 6:00 PM
+TypeError: 'module' object is not callable
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+2025-07-18 19:48:38.087012 - User: Anonymous - Path: /api/conversations/
+Internal Server Error: /api/conversations/
+Traceback (most recent call last):
+  File "C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\myvenv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py", line 51, in __call__
+    now = time.time()
+AttributeError: type object 'datetime.time' has no attribute 'time'
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+2025-07-18 19:48:57.107859 - User: Anonymous - Path: /api/conversations/
+Internal Server Error: /api/conversations/
+Traceback (most recent call last):
+  File "C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\myvenv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py", line 32, in __call__
+    start_time = time(18, 0)  # 6:00 PM
+TypeError: 'module' object is not callable
+2025-07-18 19:56:45.431665 - User: Anonymous - Path: /api/conversations/
+Unauthorized: /api/conversations/
+2025-07-18 19:56:57.673274 - User: Anonymous - Path: /api/tokens/
+Not Found: /api/tokens/
+2025-07-18 19:57:07.963352 - User: Anonymous - Path: /api/token/
+Bad Request: /api/token/
+2025-07-18 19:57:52.598101 - User: Anonymous - Path: /api/token/
+2025-07-18 19:58:53.911143 - User: Anonymous - Path: /api/conversations/
+Bad Request: /api/conversations/
+2025-07-18 19:59:41.025567 - User: Anonymous - Path: /api/conversations/
+2025-07-18 19:59:55.131482 - User: Anonymous - Path: /api/conversations/
+Bad Request: /api/conversations/
+2025-07-18 20:00:18.333006 - User: Anonymous - Path: /api/conversations/
+2025-07-18 20:00:27.466197 - User: Anonymous - Path: /api/conversations/
+2025-07-18 20:00:34.462292 - User: Anonymous - Path: /api/conversations/
+2025-07-18 20:00:42.115977 - User: Anonymous - Path: /api/conversations/
+2025-07-18 20:00:51.936326 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
