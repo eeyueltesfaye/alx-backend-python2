@@ -71,3 +71,31 @@ class OffensiveLanguageMiddleware:
         if x_forwarded_for:
             return x_forwarded_for.split(',')[0]
         return request.META.get('REMOTE_ADDR')
+
+
+class RolePermissionMiddleware:
+    def __init__(self, get_response):
+        self.get_response = get_response
+
+    def __call__(self, request):
+        # Check only chat-related endpoints
+        if request.path.startswith("/admin/"):
+            # 🔍 Debug: Check who Django thinks the user is
+            print("Is authenticated:", request.user.is_authenticated)
+            print("User:", request.user)
+            print("Is staff:", request.user.is_staff)
+            print("Is superuser:", request.user.is_superuser)
+
+            user = request.user
+            if not user.is_authenticated:
+                return HttpResponseForbidden("You must be logged in.")
+
+            # Use this if you have `role` field
+            # if user.role not in ['admin', 'moderator']:
+            #     return HttpResponseForbidden("Only admins or moderators can access this feature.")
+
+            # Or use Django's built-in roles
+            if not (user.is_staff or user.is_superuser):
+                return HttpResponseForbidden("Only admins or moderators can access this feature.")
+
+        return self.get_response(request)

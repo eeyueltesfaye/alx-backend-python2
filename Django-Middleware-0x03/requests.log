@@ -71,3 +71,314 @@ Bad Request: /api/conversations/
 2025-07-18 20:00:51.936326 - User: Anonymous - Path: /api/conversations/
 Forbidden: /api/conversations/
 C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+2025-07-18 20:16:15.158232 - User: Anonymous - Path: /admin/
+2025-07-18 20:16:15.276234 - User: Anonymous - Path: /admin/login/
+2025-07-18 20:16:18.652325 - User: Anonymous - Path: /favicon.ico
+Not Found: /favicon.ico
+2025-07-18 20:16:26.890826 - User: Anonymous - Path: /admin/login/
+2025-07-18 20:16:30.054417 - User: joel - Path: /admin/
+2025-07-18 20:17:05.015057 - User: joel - Path: /admin/auth/group/
+2025-07-18 20:17:05.679096 - User: joel - Path: /admin/jsi18n/
+2025-07-18 20:17:16.688454 - User: joel - Path: /admin/
+2025-07-18 20:17:20.048918 - User: joel - Path: /admin/auth/group/
+2025-07-18 20:17:20.169907 - User: joel - Path: /admin/jsi18n/
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\messaging_app\settings.py changed, reloading.
+2025-07-18 20:29:36.972704 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 20:30:16.636180 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 20:30:51.499434 - User: Anonymous - Path: /api/users/
+2025-07-18 20:31:08.985549 - User: Anonymous - Path: /api/users/
+Bad Request: /api/users/
+2025-07-18 20:31:29.353424 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+2025-07-18 20:38:39.956425 - User: Anonymous - Path: /api/conversations/
+Bad Request: /api/conversations/
+2025-07-18 20:39:12.585396 - User: Anonymous - Path: /api/conversations/
+2025-07-18 20:40:07.938339 - User: Anonymous - Path: /api/conversations/
+2025-07-18 20:40:15.029580 - User: Anonymous - Path: /api/conversations/
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+2025-07-18 20:44:37.199202 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 20:44:50.704773 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 20:44:51.683242 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 20:45:02.191437 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+2025-07-18 20:51:39.096305 - User: Anonymous - Path: /api/conversations/
+Unauthorized: /api/conversations/
+2025-07-18 20:51:59.864128 - User: Anonymous - Path: /api/token/refresh/
+Bad Request: /api/token/refresh/
+2025-07-18 20:53:22.763487 - User: Anonymous - Path: /api/token/refresh/
+2025-07-18 20:54:13.161753 - User: Anonymous - Path: /api/token/conversations/
+Not Found: /api/token/conversations/
+2025-07-18 20:54:22.515262 - User: Anonymous - Path: /api/conversations/
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\messaging_app\settings.py changed, reloading.
+2025-07-18 20:54:51.099185 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 20:55:06.129918 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 20:55:16.952955 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 20:55:40.994725 - User: Anonymous - Path: /api/users/
+Bad Request: /api/users/
+2025-07-18 20:56:12.462375 - User: Anonymous - Path: /api/users/
+Bad Request: /api/users/
+2025-07-18 20:56:54.391458 - User: Anonymous - Path: /api/users/
+Bad Request: /api/users/
+2025-07-18 20:57:17.780771 - User: Anonymous - Path: /api/users/
+2025-07-18 20:58:00.300327 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 21:01:32.316736 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+2025-07-18 21:02:18.263428 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 21:06:18.849566 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 21:06:47.417421 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 21:08:07.351331 - User: Anonymous - Path: /api/users/
+2025-07-18 21:23:56.702230 - User: joel - Path: /admin/
+2025-07-18 21:24:01.794081 - User: joel - Path: /admin/login/
+2025-07-18 21:24:01.906356 - User: joel - Path: /admin/
+2025-07-18 21:24:10.255334 - User: joel - Path: /admin/
+2025-07-18 21:24:15.038791 - User: joel - Path: /
+Not Found: /
+2025-07-18 21:24:20.941630 - User: joel - Path: /admin/
+2025-07-18 21:24:23.812522 - User: joel - Path: /admin/logout/
+2025-07-18 21:24:27.398724 - User: Anonymous - Path: /admin/
+2025-07-18 21:24:27.407728 - User: Anonymous - Path: /admin/login/
+2025-07-18 21:24:35.644952 - User: Anonymous - Path: /admin/login/
+2025-07-18 21:24:38.341365 - User: joel - Path: /admin/
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\admin.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\admin.py changed, reloading.
+2025-07-18 21:28:28.918793 - User: joel - Path: /admin/logout/
+2025-07-18 21:28:31.985165 - User: Anonymous - Path: /admin/
+2025-07-18 21:28:31.996166 - User: Anonymous - Path: /admin/login/
+2025-07-18 21:28:40.585795 - User: Anonymous - Path: /admin/login/
+2025-07-18 21:28:42.221014 - User: joel - Path: /admin/
+2025-07-18 21:28:53.205764 - User: joel - Path: /admin/chats/user/
+2025-07-18 21:28:54.177214 - User: joel - Path: /admin/jsi18n/
+2025-07-18 21:29:52.698555 - User: Anonymous - Path: /api/users/
+2025-07-18 21:30:06.826182 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 21:30:23.986724 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 21:30:25.522026 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 21:39:28.280193 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 21:39:45.563547 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 22:18:28.260923 - User: joel - Path: /api/conversations/
+Forbidden: /api/conversations/
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+2025-07-18 22:19:33.280966 - User: joel - Path: /api/conversations/
+Unauthorized: /api/conversations/
+2025-07-18 22:20:35.499086 - User: joel - Path: /api/conversations/
+Unauthorized: /api/conversations/
+2025-07-18 22:20:48.266820 - User: joel - Path: /api/users/
+Unauthorized: /api/users/
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\views.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\views.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\views.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+2025-07-18 23:32:38.575306 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+2025-07-18 23:32:41.837435 - User: joel - Path: /favicon.ico
+2025-07-18 23:32:42.552946 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:32:43.143927 - User: joel - Path: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+2025-07-18 23:33:26.024544 - User: joel - Path: /api/tokens/
+Internal Server Error: /api/tokens/
+Traceback (most recent call last):
+  File "C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\myvenv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py", line 33, in __call__
+    end_time = time(24, 0)    # 9:00 PM
+ValueError: hour must be in 0..23
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+2025-07-18 23:34:09.771851 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:34:12.027818 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:34:13.595371 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+2025-07-18 23:35:01.954593 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:35:03.457083 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:35:04.341037 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:35:04.568648 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:35:04.720654 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:35:04.864648 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:35:05.027650 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:35:05.199655 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:35:05.338654 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:35:05.486649 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:35:05.719652 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:35:10.800188 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:35:10.969876 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:35:11.419074 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:35:11.598059 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+2025-07-18 23:35:38.848323 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:35:39.948286 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:35:40.505546 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:35:40.735565 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:35:40.855554 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:35:41.101570 - User: joel - Path: /api/tokens/
+Forbidden: /api/tokens/
+2025-07-18 23:35:44.868068 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+2025-07-18 23:35:45.780974 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+2025-07-18 23:35:46.021877 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+2025-07-18 23:35:46.135645 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+2025-07-18 23:35:46.283640 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+2025-07-18 23:35:46.425642 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+2025-07-18 23:35:46.575642 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+2025-07-18 23:35:46.737636 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+2025-07-18 23:35:46.920636 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+2025-07-18 23:35:47.079637 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+2025-07-18 23:35:47.209645 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+2025-07-18 23:35:47.437641 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+2025-07-18 23:37:45.525916 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+2025-07-18 23:37:46.794559 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+2025-07-18 23:37:47.315563 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+2025-07-18 23:37:47.538559 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+2025-07-18 23:37:47.644561 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+2025-07-18 23:37:47.822558 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+2025-07-18 23:37:47.955560 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+2025-07-18 23:37:48.205561 - User: joel - Path: /api/users/
+Forbidden: /api/users/
+2025-07-18 23:37:49.030666 - User: joel - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 23:37:50.135933 - User: joel - Path: /admin/chats/user/
+2025-07-18 23:37:54.541580 - User: joel - Path: /admin/jsi18n/
+2025-07-18 23:38:03.842232 - User: joel - Path: /admin/
+2025-07-18 23:38:16.887367 - User: joel - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 23:38:20.429302 - User: joel - Path: /api/conversations/
+Forbidden: /api/conversations/
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+2025-07-18 23:41:06.223458 - User: joel - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 23:41:07.833194 - User: joel - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 23:41:08.536847 - User: joel - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 23:41:08.660849 - User: joel - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 23:41:08.797848 - User: joel - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 23:41:08.947847 - User: joel - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-19 00:17:51.290311 - User: joel - Path: /api/conversations/
+Unauthorized: /api/conversations/
+2025-07-19 00:18:00.476044 - User: joel - Path: /favicon.ico
+Not Found: /favicon.ico
+2025-07-19 00:18:31.173185 - User: joel - Path: /api/conversations/
+Unauthorized: /api/conversations/
+2025-07-19 00:19:17.980083 - User: Anonymous - Path: /api/conversations/
+Unauthorized: /api/conversations/
+2025-07-19 00:19:58.830327 - User: Anonymous - Path: /api/tokens/
+Not Found: /api/tokens/
+2025-07-19 00:20:05.986757 - User: Anonymous - Path: /api/token/
+Bad Request: /api/token/
+2025-07-19 00:21:07.944624 - User: Anonymous - Path: /api/token/
+2025-07-19 00:21:50.096048 - User: Anonymous - Path: /api/conversations/
+2025-07-19 00:24:42.698185 - User: Anonymous - Path: /api/users/
+2025-07-19 00:28:16.234469 - User: Anonymous - Path: /api/users/
+Bad Request: /api/users/
+2025-07-19 00:29:28.605136 - User: Anonymous - Path: /api/users/
+2025-07-19 00:30:47.080186 - User: Anonymous - Path: /api/token/
+Bad Request: /api/token/
+2025-07-19 00:31:15.919738 - User: Anonymous - Path: /api/token/
+2025-07-19 00:32:08.904055 - User: Anonymous - Path: /admin/
+Forbidden: /admin/
+2025-07-19 00:32:15.353244 - User: Anonymous - Path: /admin/
+Forbidden: /admin/
+2025-07-19 00:32:36.030925 - User: Anonymous - Path: /api/tokens/
+Not Found: /api/tokens/
+2025-07-19 00:32:43.113562 - User: Anonymous - Path: /api/token/
+Bad Request: /api/token/
+2025-07-19 00:33:21.885276 - User: Anonymous - Path: /api/token/
+2025-07-19 00:34:07.517144 - User: Anonymous - Path: /admin/
+Forbidden: /admin/
+2025-07-19 00:34:16.768252 - User: Anonymous - Path: /admin/
+Forbidden: /admin/
+2025-07-19 00:35:03.698426 - User: joel - Path: /admin/
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\models.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\models.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\models.py changed, reloading.
+2025-07-19 00:48:37.539257 - User: Anonymous - Path: /admin/
+Forbidden (CSRF cookie not set.): /admin/
+2025-07-19 00:48:47.188878 - User: Anonymous - Path: /admin/
+Forbidden (CSRF cookie not set.): /admin/
+2025-07-19 00:48:48.758237 - User: Anonymous - Path: /admin/
+Forbidden (CSRF cookie not set.): /admin/
+2025-07-19 00:48:50.803421 - User: Anonymous - Path: /admin/
+Forbidden (CSRF cookie not set.): /admin/
+2025-07-19 00:49:30.141114 - User: Anonymous - Path: /admin/
+2025-07-19 00:49:30.165120 - User: Anonymous - Path: /admin/login/
+2025-07-19 00:49:48.914386 - User: Anonymous - Path: /admin/
+Forbidden (CSRF token missing.): /admin/
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\messaging_app\settings.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\messaging_app\settings.py changed, reloading.
