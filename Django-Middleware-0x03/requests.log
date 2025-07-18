@@ -16,3 +16,10 @@ Unauthorized: /api/token/
 2025-07-18 19:07:04.631909 - User: Anonymous - Path: /api/conversations/
 Bad Request: /api/conversations/
 2025-07-18 19:07:29.996208 - User: Anonymous - Path: /api/conversations/
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\messaging_app\settings.py changed, reloading.
+2025-07-18 19:36:15.861816 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+2025-07-18 19:36:24.259420 - User: Anonymous - Path: /api/conversations/
+Forbidden: /api/conversations/
+C:\Users\joel\Desktop\PRODAWIT\alx-backend-python\Django-Middleware-0x03\chats\middleware.py changed, reloading.
