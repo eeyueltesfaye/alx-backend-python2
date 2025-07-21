@@ -4,6 +4,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth import logout 
 from django.contrib.auth.models import User
 import logging
+from .utils import get_threaded_replies
 
 
 def message_detail(request, pk):
@@ -29,3 +30,12 @@ def delete_user(request):
 
 def account_deleted(request):
     return render(request, 'messaging/account_deleted.html')
+
+
+def get_message_thread(message_id):
+    message = get_object_or_404(Message.objects.select_related('sender', 'receiver'), pk=message_id)
+    thread = get_threaded_replies(message)
+    return {
+        "message": message,
+        "thread": thread
+    }
