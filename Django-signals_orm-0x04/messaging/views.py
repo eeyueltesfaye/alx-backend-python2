@@ -6,6 +6,8 @@ from django.contrib.auth.models import User
 import logging
 from .utils import get_threaded_replies
 from django.http import JsonResponse
+from django.views.decorators.cache import cache_page
+
 
 
 def message_detail(request, pk):
@@ -53,4 +55,27 @@ def unread_messages_view(request):
             "timestamp": msg.timestamp
         } for msg in unread
     ]
+    return JsonResponse(data, safe=False)
+
+@cache_page(60)  # Cache this view for 60 seconds
+@login_required
+def conversation_messages(request, username):
+    user = request.user
+    other_user = get_object_or_404(User, username=username)
+
+    messages = Message.objects.filter(
+        sender__in=[user, other_user],
+        receiver__in=[user, other_user]
+    ).order_by('timestamp')
+
+    data = [
+        {
+            "id": m.id,
+            "sender": m.sender.username,
+            "receiver": m.receiver.username,
+            "content": m.content,
+            "timestamp": m.timestamp
+        } for m in messages
+    ]
+
     return JsonResponse(data, safe=False)
