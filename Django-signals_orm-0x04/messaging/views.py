@@ -5,6 +5,7 @@ from django.contrib.auth import logout
 from django.contrib.auth.models import User
 import logging
 from .utils import get_threaded_replies
+from django.http import JsonResponse
 
 
 def message_detail(request, pk):
@@ -39,3 +40,17 @@ def get_message_thread(message_id):
         "message": message,
         "thread": thread
     }
+
+@login_required
+def unread_messages_view(request):
+    user = request.user
+    unread = Message.unread.for_user(user)
+    data = [
+        {
+            "id": msg.id,
+            "sender": msg.sender.username,
+            "content": msg.content,
+            "timestamp": msg.timestamp
+        } for msg in unread
+    ]
+    return JsonResponse(data, safe=False)
