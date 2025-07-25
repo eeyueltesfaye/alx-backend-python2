@@ -16,6 +16,7 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     default-libmysqlclient-dev \
     pkg-config \
+    netcat \
     && rm -rf /var/lib/apt/lists/*
 
 
@@ -30,7 +31,9 @@ COPY . /app/
 EXPOSE 8000
 
 # Command to run the Django app
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+#CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
 
+# docker-compose.yml overrides the above .
+CMD ["sh", "-c", "echo 'Ready for Compose'"]
 
 

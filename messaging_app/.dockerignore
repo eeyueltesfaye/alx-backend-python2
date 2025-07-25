@@ -1,0 +1,23 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+myvenv/
+.myvenv/
+
+# Git
+.git/
+.gitignore
+
+# Environment files
+.env
+*.db
+
+# OS / IDE clutter
+*.log
+*.swp
+.DS_Store
+.vscode/
